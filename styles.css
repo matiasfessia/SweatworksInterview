@@ -20,10 +20,43 @@ html, body {
 	background-color: orange;
 }
 
+.errors {
+  background-color: #780000;
+  padding: 20px;
+  color: #fff;
+}
 .numbers-holder {
 	display: inline-block;
 }
 
 .buttons-holder {
 	float: right;
+}
+
+button.active {
+  background-color: #ccc;
+}
+
+.results-space h2 {
+  color: #fff;
+  display: inline;
+}
+
+.list {
+  display: inline-block;
+  background: red;
+  width: 100%
+}
+
+.list ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.list ul.left {
+  float: left;
+}
+
+.list ul.right {
+  float: right;
 }
